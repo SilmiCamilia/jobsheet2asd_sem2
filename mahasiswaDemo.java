@@ -18,12 +18,8 @@ public class mahasiswaDemo {
             System.out.println("---------------------------------------");
         }
 
-        for(int i = 0; i<3; i++){
-            System.out.println("NIM      : "+arrayOfMahasiswa[i].nim);
-            System.out.println("Nama     : "+arrayOfMahasiswa[i].nama);
-            System.out.println("Kelas    : "+arrayOfMahasiswa[i].kelas);
-            System.out.println("IPK      : "+arrayOfMahasiswa[i].ipk);
-            System.out.println("---------------------------------------");
+        for (mahasiswa24 m : arrayOfMahasiswa) {
+            m.cetakInfo();
         }
 
 

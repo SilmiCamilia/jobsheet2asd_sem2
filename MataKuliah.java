@@ -13,7 +13,19 @@ public class MataKuliah {
         this.sks = sks;
         this.jumlahJam = jumlahJam;
     }
-
+    public void tambahData(String kode, String nama, int sks, int jumlahJam) {
+        this.kodeMK = kode;
+        this.nama = nama;
+        this.sks = sks;
+        this.jumlahJam = jumlahJam;
+    }
+    public void cetakInfo() {
+        System.out.println("Kode MK      = " + kodeMK);
+        System.out.println("Nama MK      = " + nama);
+        System.out.println("SKS          = " + sks);
+        System.out.println("Jumlah Jam   = " + jumlahJam);
+        System.out.println("-----------------------------");
+    }
     public void tampilInformasi() {
         System.out.println("Kode MK      = " + kodeMK);
         System.out.println("Nama MK      = " + nama);
